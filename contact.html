@@ -1,0 +1,1085 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Dkart Disposable Products</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f8fafc;
+            overflow-x: hidden;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #f59e0b, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+
+</head>
+
+<body>
+
+        <!-- Navbar -->
+   
+<style>
+.nav-link{
+    position:relative;
+}
+
+.nav-link::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:0;
+    height:2px;
+    background:#f59e0b;
+    transition:.4s;
+}
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+.dropdown{
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(15px);
+    transition:.3s;
+}
+
+.group:hover .dropdown{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+</style>
+
+<header
+class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-xl border-b border-amber-100 z-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="h-20 flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href="#"
+            class="flex items-center gap-3">
+
+                <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                    D
+                </div>
+
+                <div>
+
+                    <h2 class="font-bold text-xl text-gray-900">
+                        Dkart
+                    </h2>
+
+                    <p class="text-xs text-gray-500">
+                        Disposable Products
+                    </p>
+
+                </div>
+
+            </a>
+
+            <!-- Menu -->
+            <nav
+            class="hidden lg:flex items-center gap-10">
+
+                <a href="/index.html"
+                class="nav-link font-medium">
+                    Home
+                </a>
+
+                <!-- Products Dropdown -->
+                <div class="relative group">
+                        
+
+                    <a href="/products.html">
+                    <button
+                    class="nav-link flex items-center gap-2 font-medium">
+
+                        Products
+
+                        <i class='bx bx-chevron-down'></i>
+
+                    </button>
+                </a>
+
+                    <div
+                    class="dropdown absolute top-12 left-1/2 -translate-x-1/2 w-[650px] bg-white rounded-3xl shadow-2xl border border-gray-100 p-8">
+
+                        <div class="grid grid-cols-2 gap-8">
+
+                            <div>
+
+                                <h4
+                                class="font-bold text-amber-500 mb-4">
+                                    Product Categories
+                                </h4>
+
+                                <ul class="space-y-3">
+
+                                    <li><a href="#">🥤 Paper Cups</a></li>
+                                    <li><a href="#">🍽 Disposable Plates</a></li>
+                                    <li><a href="#">🥡 Food Containers</a></li>
+                                    <li><a href="#">🧻 Tissue Papers</a></li>
+
+                                </ul>
+
+                            </div>
+
+                            <div>
+
+                                <h4
+                                class="font-bold text-amber-500 mb-4">
+                                    Packaging Solutions
+                                </h4>
+
+                                <ul class="space-y-3">
+
+                                    <li><a href="#">📦 Burger Boxes</a></li>
+                                    <li><a href="#">🍕 Pizza Boxes</a></li>
+                                    <li><a href="#">🛍 Carry Bags</a></li>
+                                    <li><a href="#">🏷 Custom Packaging</a></li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a href="/gallery.html"
+                class="nav-link font-medium">
+                    Gallery
+                </a>
+
+                <a href="/contact.html"
+                class="nav-link font-medium">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- CTA -->
+            <div
+            class="hidden lg:flex items-center gap-3">
+
+                <a href="tel:+918506981029"
+                class="px-5 py-3 rounded-xl border border-gray-300 hover:border-amber-500 transition">
+
+                    Call Now
+
+                </a>
+
+                <a href="#"
+                class="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold shadow-lg hover:scale-105 transition">
+
+                    WhatsApp Order
+
+                </a>
+
+            </div>
+
+            <!-- Mobile -->
+            <button
+            class="lg:hidden text-3xl">
+                <i class='bx bx-menu'></i>
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Strip -->
+    <div
+    class="w-full py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-center text-sm font-medium">
+
+        🚚 Fast Delivery • 📦 Bulk Orders • ⭐ Premium Quality • 💰 Wholesale Pricing
+
+    </div>
+
+</header>
+
+<!-- MOBILE MENU BUTTON -->
+<button id="menuBtn"
+class="lg:hidden text-3xl text-gray-800">
+
+    <i class='bx bx-menu'></i>
+
+</button>
+
+<!-- MOBILE OVERLAY -->
+<div id="overlay"
+class="fixed inset-0 bg-black/50 z-[60] hidden">
+
+</div>
+
+<!-- MOBILE SIDEBAR -->
+<div id="mobileMenu"
+class="fixed top-0 right-[-100%] w-[320px] h-screen bg-white z-[70] transition-all duration-500 shadow-2xl overflow-y-auto">
+
+    <!-- Header -->
+    <div
+    class="flex items-center justify-between p-6 border-b">
+
+        <div>
+
+            <h3 class="font-bold text-xl">
+                Dkart
+            </h3>
+
+            <p class="text-xs text-gray-500">
+                Disposable Products
+            </p>
+
+        </div>
+
+        <button id="closeMenu"
+        class="text-3xl">
+
+            <i class='bx bx-x'></i>
+
+        </button>
+
+    </div>
+
+    <!-- Links -->
+    <div class="p-6">
+
+        <a href="/index.html"
+        class="block py-4 border-b font-medium">
+            Home
+        </a>
+
+        <!-- Products Dropdown -->
+        <div>
+
+            <a heref="/products.html">
+            <button id="mobileProductBtn"
+            class="w-full flex justify-between items-center py-4 border-b font-medium">
+
+                Products
+
+                <i class='bx bx-chevron-down'></i>
+
+            </button>
+
+            </a>
+
+            <div id="mobileProducts"
+            class="hidden pl-4 py-3 space-y-3 text-gray-600">
+
+                <a href="#" class="block">
+                    🥤 Paper Cups
+                </a>
+
+                <a href="#" class="block">
+                    🍽 Disposable Plates
+                </a>
+
+                <a href="#" class="block">
+                    🥡 Food Containers
+                </a>
+
+                <a href="#" class="block">
+                    🧻 Tissue Papers
+                </a>
+
+                <a href="#" class="block">
+                    📦 Burger Boxes
+                </a>
+
+                <a href="#" class="block">
+                    🍕 Pizza Boxes
+                </a>
+
+                <a href="#" class="block">
+                    🛍 Carry Bags
+                </a>
+
+            </div>
+
+        </div>
+
+        <a href="/gallery.html"
+        class="block py-4 border-b font-medium">
+            Gallery
+        </a>
+
+        <a href="/contact.html"
+        class="block py-4 border-b font-medium">
+            Contact
+        </a>
+
+        <!-- CTA -->
+        <div class="mt-8 space-y-4">
+
+            <a href="tel:+918506981029"
+            class="block text-center py-4 rounded-xl border">
+
+                📞 Call Now
+
+            </a>
+
+            <a href="#"
+            class="block text-center py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold">
+
+                💬 WhatsApp Order
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+// Menu
+const menuBtn =
+document.getElementById('menuBtn');
+
+const closeMenu =
+document.getElementById('closeMenu');
+
+const mobileMenu =
+document.getElementById('mobileMenu');
+
+const overlay =
+document.getElementById('overlay');
+
+menuBtn.onclick = () => {
+
+mobileMenu.style.right = '0';
+overlay.classList.remove('hidden');
+
+};
+
+closeMenu.onclick = closeSidebar;
+overlay.onclick = closeSidebar;
+
+function closeSidebar(){
+
+mobileMenu.style.right='-100%';
+
+overlay.classList.add('hidden');
+
+}
+
+
+// Product Dropdown
+document
+.getElementById('mobileProductBtn')
+.addEventListener('click',()=>{
+
+document
+.getElementById('mobileProducts')
+.classList.toggle('hidden');
+
+});
+
+</script>
+    <!-- CONTACT HERO -->
+    <section class="pt-40 pb-24 bg-gradient-to-br from-amber-50 via-white to-orange-50">
+
+        <div class="max-w-7xl mx-auto px-6 text-center">
+
+            <span
+                class="inline-flex px-4 py-2 rounded-full bg-amber-100 text-amber-600 font-semibold">
+                Contact Us
+            </span>
+
+            <h1
+                class="text-5xl md:text-7xl font-extrabold mt-6 text-gray-900">
+
+                Let's Talk About
+
+                <span class="gradient-text">
+                    Your Requirements
+                </span>
+
+            </h1>
+
+            <p
+                class="max-w-3xl mx-auto mt-6 text-lg text-gray-600">
+
+                Looking for wholesale disposable products, food packaging,
+                paper cups, containers or bulk supplies? We're here to help.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+
+<!-- CONTACT INFO -->
+<section class="pb-20">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="bg-white rounded-3xl p-8 shadow-lg text-center">
+                <div class="text-5xl mb-4">📍</div>
+                <h3 class="font-bold text-xl">Address</h3>
+                <p class="text-gray-600 mt-3">
+                    Dkart Disposable Store
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-lg text-center">
+                <div class="text-5xl mb-4">📞</div>
+                <h3 class="font-bold text-xl">Phone</h3>
+                <p class="text-gray-600 mt-3">
+                    +91 XXXXX XXXXX
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-lg text-center">
+                <div class="text-5xl mb-4">✉️</div>
+                <h3 class="font-bold text-xl">Email</h3>
+                <p class="text-gray-600 mt-3">
+                    info@dkart.com
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-lg text-center">
+                <div class="text-5xl mb-4">🕒</div>
+                <h3 class="font-bold text-xl">Hours</h3>
+                <p class="text-gray-600 mt-3">
+                    Mon - Sat
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT FORM + MAP -->
+<section class="pb-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-10">
+
+            <!-- Form -->
+            <div
+                class="bg-white rounded-[35px] p-8 shadow-xl">
+
+                <h2 class="text-3xl font-bold mb-8">
+                    Send Inquiry
+                </h2>
+
+                <form class="space-y-5">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="w-full border rounded-2xl px-5 py-4">
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        class="w-full border rounded-2xl px-5 py-4">
+
+                    <input
+                        type="tel"
+                        placeholder="Phone Number"
+                        class="w-full border rounded-2xl px-5 py-4">
+
+                    <input
+                        type="text"
+                        placeholder="Product Requirement"
+                        class="w-full border rounded-2xl px-5 py-4">
+
+                    <textarea
+                        rows="5"
+                        placeholder="Your Message"
+                        class="w-full border rounded-2xl px-5 py-4"></textarea>
+
+                    <button
+                        class="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold">
+                        Submit Inquiry
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- Map -->
+            <div
+                class="overflow-hidden rounded-[35px] shadow-xl min-h-[600px]">
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14363.516572079607!2d133.3009111861837!3d-25.84052745777294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d030066aac62b%3A0xa241433024e8096d!2sDkart(disposable%20product%20store)!5e0!3m2!1sen!2sin!4v1782233191153!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FAQ -->
+<section class="pb-24">
+
+    <div class="max-w-4xl mx-auto px-6">
+
+        <div class="text-center mb-14">
+
+            <h2 class="text-4xl font-bold">
+                Frequently Asked Questions
+            </h2>
+
+        </div>
+
+        <div class="space-y-5">
+
+            <div class="bg-white rounded-2xl p-6 shadow">
+                <h3 class="font-bold">
+                    Do you provide wholesale pricing?
+                </h3>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 shadow">
+                <h3 class="font-bold">
+                    Is delivery available?
+                </h3>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 shadow">
+                <h3 class="font-bold">
+                    Can I place bulk orders?
+                </h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- CONTACT FORM + MAP -->
+    <!-- Add Form Section Here -->
+
+    <!-- FAQ SECTION -->
+    <!-- Add FAQ Here -->
+
+    <!-- CTA SECTION -->
+    
+<!-- CONTACT PAGE CTA -->
+<section class="pb-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div
+            class="relative overflow-hidden rounded-[40px] bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600">
+
+            <!-- Decorative Circles -->
+            <div
+                class="absolute -top-24 -left-24 w-96 h-96 bg-white/10 rounded-full">
+            </div>
+
+            <div
+                class="absolute -bottom-24 -right-24 w-96 h-96 bg-white/10 rounded-full">
+            </div>
+
+            <div class="relative z-10 p-10 md:p-16">
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                    <!-- Content -->
+                    <div>
+
+                        <span
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-white/20 text-white font-medium backdrop-blur">
+                            🚀 Bulk Orders Available
+                        </span>
+
+                        <h2
+                            class="text-4xl md:text-5xl font-extrabold text-white mt-6 leading-tight">
+
+                            Ready To Place
+                            Your Next Order?
+
+                        </h2>
+
+                        <p
+                            class="text-white/90 text-lg mt-6 leading-relaxed max-w-xl">
+
+                            Get premium quality disposable products,
+                            packaging solutions, paper cups, containers,
+                            carry bags and more at competitive wholesale rates.
+
+                        </p>
+
+                        <div class="flex flex-wrap gap-4 mt-8">
+
+                            <a href="tel:+918506981029"
+                                class="px-8 py-4 bg-white text-amber-600 rounded-2xl font-bold hover:scale-105 transition">
+
+                                📞 Call Now
+
+                            </a>
+
+                            <a href="https://wa.me/918506981029"
+                                class="px-8 py-4 border-2 border-white text-white rounded-2xl font-bold hover:bg-white hover:text-amber-600 transition">
+
+                                💬 WhatsApp Us
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Stats -->
+                    <div>
+
+                        <div class="grid grid-cols-2 gap-5">
+
+                            <div
+                                class="bg-white/15 backdrop-blur-lg rounded-3xl p-6 text-center">
+
+                                <h3 class="text-5xl font-bold text-white">
+                                    500+
+                                </h3>
+
+                                <p class="text-white/80 mt-2">
+                                    Products
+                                </p>
+
+                            </div>
+
+                            <div
+                                class="bg-white/15 backdrop-blur-lg rounded-3xl p-6 text-center">
+
+                                <h3 class="text-5xl font-bold text-white">
+                                    5K+
+                                </h3>
+
+                                <p class="text-white/80 mt-2">
+                                    Customers
+                                </p>
+
+                            </div>
+
+                            <div
+                                class="bg-white/15 backdrop-blur-lg rounded-3xl p-6 text-center">
+
+                                <h3 class="text-5xl font-bold text-white">
+                                    100%
+                                </h3>
+
+                                <p class="text-white/80 mt-2">
+                                    Quality Assured
+                                </p>
+
+                            </div>
+
+                            <div
+                                class="bg-white/15 backdrop-blur-lg rounded-3xl p-6 text-center">
+
+                                <h3 class="text-5xl font-bold text-white">
+                                    24/7
+                                </h3>
+
+                                <p class="text-white/80 mt-2">
+                                    Support
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- FOOTER -->
+    <!-- Add Footer Here -->
+     <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/918506981029"
+        target="_blank"
+        class="group w-16 h-16 rounded-full bg-green-500 flex items-center justify-center text-white text-3xl shadow-2xl hover:scale-110 transition-all duration-300">
+
+        <i class='bx bxl-whatsapp'></i>
+
+        <span
+            class="absolute right-20 bg-black text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+            WhatsApp Us
+        </span>
+
+    </a>
+
+    <!-- Back To Top -->
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})"
+        class="group w-14 h-14 rounded-full bg-amber-500 flex items-center justify-center text-white text-2xl shadow-xl hover:scale-110 transition-all duration-300">
+
+        <i class='bx bx-chevron-up'></i>
+
+    </button>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<!-- PREMIUM FOOTER -->
+<footer class="relative bg-gray-950 text-white overflow-hidden">
+
+    <!-- Glow Effects -->
+    <div
+        class="absolute top-0 left-0 w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[150px]">
+    </div>
+
+    <div
+        class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-orange-500/10 rounded-full blur-[150px]">
+    </div>
+
+    <div class="relative z-10">
+
+        <!-- Main Footer -->
+        <div class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-12">
+
+                <!-- Company Info -->
+                <div>
+
+                    <div class="flex items-center gap-3 mb-6">
+
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center text-white font-bold text-2xl shadow-lg">
+                            D
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-2xl font-bold">
+                                Dkart
+                            </h3>
+
+                            <p class="text-gray-400 text-sm">
+                                Disposable Products Store
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-gray-400 leading-relaxed">
+
+                        Your trusted destination for premium disposable products,
+                        food packaging solutions, paper cups, plates, bowls,
+                        containers, spoons, forks and wholesale supplies.
+
+                    </p>
+
+                    <div
+                        class="mt-6 inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/20 text-amber-400 text-sm">
+
+                        ⭐ Trusted By Restaurants, Cafes & Retail Businesses
+
+                    </div>
+
+                    <!-- Social -->
+                    <div class="flex gap-4 mt-8">
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-amber-500 transition-all duration-300">
+
+                            <i class='bx bxl-facebook text-xl'></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-amber-500 transition-all duration-300">
+
+                            <i class='bx bxl-instagram text-xl'></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-amber-500 transition-all duration-300">
+
+                            <i class='bx bxl-whatsapp text-xl'></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-amber-500 transition-all duration-300">
+
+                            <i class='bx bxl-youtube text-xl'></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+
+                    <h4 class="text-xl font-bold mb-6">
+                        Quick Links
+                    </h4>
+
+                    <ul class="space-y-4 text-gray-400">
+
+                        <li>
+                            <a href="index.html"
+                                class="hover:text-amber-400 transition">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="products.html"
+                                class="hover:text-amber-400 transition">
+                                Products
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html"
+                                class="hover:text-amber-400 transition">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html"
+                                class="hover:text-amber-400 transition">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Product Categories -->
+                <div>
+
+                    <h4 class="text-xl font-bold mb-6">
+                        Product Categories
+                    </h4>
+
+                    <ul class="space-y-4 text-gray-400">
+
+                        <li>Sugarcane Eco Friendly Plates</li>
+                        <li>Sugarcane Eco Friendly Bowls</li>
+                        <li>Thermocol Plates</li>
+                        <li>Plastic Spoons & Forks</li>
+                        <li>Plastic Glasses</li>
+                        <li>Silver & Gold Foil Plates</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+
+                    <h4 class="text-xl font-bold mb-6">
+                        Contact Information
+                    </h4>
+
+                    <div class="space-y-5 text-gray-400">
+
+                        <div class="flex items-start gap-3">
+
+                            <i class='bx bx-map text-amber-400 text-2xl'></i>
+
+                            <span>
+                                Karol Bagh, New Delhi, India
+                            </span>
+
+                        </div>
+
+                        <div class="flex items-start gap-3">
+
+                            <i class='bx bx-phone text-amber-400 text-2xl'></i>
+
+                            <span>
+                                +91 99999 99999
+                            </span>
+
+                        </div>
+
+                        <div class="flex items-start gap-3">
+
+                            <i class='bx bx-envelope text-amber-400 text-2xl'></i>
+
+                            <span>
+                                info@dkart.com
+                            </span>
+
+                        </div>
+
+                        <div class="flex items-start gap-3">
+
+                            <i class='bx bxl-whatsapp text-amber-400 text-2xl'></i>
+
+                            <span>
+                                WhatsApp Orders Available
+                            </span>
+
+                        </div>
+
+                        <div class="flex items-start gap-3">
+
+                            <i class='bx bx-time text-amber-400 text-2xl'></i>
+
+                            <span>
+                                Mon - Sat : 9:00 AM - 8:00 PM
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Features Strip -->
+        <div class="border-t border-white/10 border-b border-white/10">
+
+            <div
+                class="max-w-7xl mx-auto px-6 py-5 grid md:grid-cols-4 gap-4 text-center">
+
+                <div class="text-gray-300">
+                    🌱 Eco Friendly Products
+                </div>
+
+                <div class="text-gray-300">
+                    📦 Bulk Orders Available
+                </div>
+
+                <div class="text-gray-300">
+                    🚚 Fast Delivery Service
+                </div>
+
+                <div class="text-gray-300">
+                    ⭐ Premium Quality
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="bg-black/30">
+
+            <div
+                class="max-w-7xl mx-auto px-6 py-6 flex flex-col lg:flex-row justify-between items-center gap-4">
+
+                <p class="text-gray-500 text-center lg:text-left">
+                    © 2026 Dkart Disposable Products. All Rights Reserved.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-3">
+
+                    <span
+                        class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-400 text-sm">
+
+                        📦 Wholesale Supply
+
+                    </span>
+
+                    <span
+                        class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-400 text-sm">
+
+                        🚚 Fast Delivery
+
+                    </span>
+
+                </div>
+
+                <div class="text-center lg:text-right">
+
+                    <p class="text-gray-500 text-sm">
+                        Designed & Developed By
+                    </p>
+
+                    <a href="https://nexahost.in"
+                        target="_blank"
+                        class="font-bold text-amber-400 hover:text-amber-300 transition">
+
+                        NexaHost Technologies 🚀
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
+
